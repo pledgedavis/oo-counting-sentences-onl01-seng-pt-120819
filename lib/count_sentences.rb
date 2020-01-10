@@ -16,6 +16,7 @@ self.end_with?("!")
   end
 
   def count_sentences
+    binding.pry
     self.split.count
     # Do x
   # Do y
