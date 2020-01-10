@@ -19,6 +19,6 @@ self.end_with?("!")
     self.split.count
 # self.count("") 
 self.sentence?
-binding.pry
+# binding.pry
   end
 end
