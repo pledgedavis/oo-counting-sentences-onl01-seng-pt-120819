@@ -18,7 +18,7 @@ self.end_with?("!")
   def count_sentences
     binding.pry
     self.split.count
-    self.split(".")
+    self.split(/\.|\!|\?/)
     # Do x
   # Do y
 # self.count("") 
@@ -26,4 +26,4 @@ self.end_with?("!")
   end
 end
 
-
+# :/aa|oo|ee|ii|uu|ae|ea|ou|ie|ei|eo|oe/
